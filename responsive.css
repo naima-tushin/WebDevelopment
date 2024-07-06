@@ -1,0 +1,104 @@
+@media only screen and (max-width: 768px) {
+
+    .problem {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    /* Problem Statement 1 Starts */
+    .outer-border {
+        width: 95%;
+    }
+
+    .inner-border-content h1 {
+        top: 17%;
+        right: 28%;
+        font-size: 26px;
+    }
+
+    .navigation-box,
+    .content-box {
+        width: 88%;
+    }
+
+    .bottom-boxes {
+        flex-direction: column;
+    }
+
+    /* Problem Statement 1 Ends */
+    /* Problem Statement 2 Starts */
+
+    .centered-box {
+        margin: 20px auto;
+    }
+
+    /* Problem Statement 2 Ends */
+    /* Problem Statement 3 Starts */
+
+    .metadata {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .metadata h1 {
+        font-size: 30px;
+    }
+
+    /* Problem Statement 3 Ends */
+    /* Problem Statement 4 Starts */
+
+    .banner,
+    .second-banner {
+        width: 90%;
+        height: 170vh;
+        margin: 20px auto;
+    }
+
+    .overlay h1,
+    .second-overlay h1 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .overlay h4 {
+        margin: 10px;
+    }
+
+    .overlay p,
+    .second-overlay p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .field-form {
+        display: grid;
+        gap: 0;
+    }
+
+    .field-form p {
+        margin-top: 10px;
+        margin-bottom: -15px;
+    }
+
+    .second-overlay h6 {
+        margin-top: 15px;
+    }
+
+    .select-grid {
+        grid-template-columns: 1fr;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .second-overlay .button {
+        right: -5px;
+    }
+
+    label {
+        margin-bottom: 0;
+    }
+
+    /* Problem Statement 4 Ends */
+}
